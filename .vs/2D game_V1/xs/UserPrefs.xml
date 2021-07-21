@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{8F793437-8843-4269-B589-8766DD79313C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="112" Column="1" />
-      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="35" Column="33" />
-      <File FileName="Assets/Scripts/Projectile.cs" Line="56" Column="35" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="12" Column="158" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" />
+      <File FileName="Assets/Scripts/PlayerAttack.cs" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="56" Column="31" />
+      <File FileName="Assets/Scripts/Door.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="2D game_V1" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Projectile.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b3259b75-a353-4048-bf6d-4684c3df997c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6bfa336a-e514-4ee4-b5dd-427bf1f4ba3a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
