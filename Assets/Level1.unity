@@ -3371,7 +3371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 845c5dff436fa4d17a598b94bcaf3d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthValue: 0
+  healthValue: 1
 --- !u!212 &764552199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8897,7 +8897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 845c5dff436fa4d17a598b94bcaf3d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthValue: 0
+  healthValue: 1
 --- !u!212 &2052547171
 SpriteRenderer:
   m_ObjectHideFlags: 0
