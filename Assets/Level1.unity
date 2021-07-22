@@ -9022,7 +9022,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 20daa800a641d9e4cae18a06630db1ef, type: 3}
     - target: {fileID: 5993232499694557094, guid: b499c7db75e964fc48d8c8b60dbf1058, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5993232499694557094, guid: b499c7db75e964fc48d8c8b60dbf1058, type: 3}
       propertyPath: m_SortingLayerID
@@ -9164,6 +9164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
+  iFramesDuration: 1
+  numberOfFlashes: 3
 --- !u!1001 &3270338971303171968
 PrefabInstance:
   m_ObjectHideFlags: 0
