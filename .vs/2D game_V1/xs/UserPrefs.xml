@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{8F793437-8843-4269-B589-8766DD79313C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health/HealthCollectible.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Room/Door.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy_Sideways.cs" Line="47" Column="2" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="19" Column="49" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scripts/PlayerAttack.cs" />
-      <File FileName="Assets/Scripts/Projectile.cs" />
-      <File FileName="Assets/Scripts/Door.cs" />
-      <File FileName="Assets/Scripts/Health/Health.cs" Line="35" Column="1" />
-      <File FileName="Assets/Scripts/Health/Healthbar.cs" Line="14" Column="1" />
-      <File FileName="Assets/Scripts/Health/HealthCollectible.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemies/EnemyDamage.cs" Line="6" Column="31" />
+      <File FileName="Assets/Scripts/Enemies/Firetrap.cs" Line="53" Column="1" />
+      <File FileName="Assets/Scripts/Enemies/ArrowTrap.cs" Line="14" Column="1" />
+      <File FileName="../../ProjectileArray.cs" Line="16" Column="2" />
+      <File FileName="Assets/Scripts/Enemies/EnemyProjectile.cs" Line="26" Column="9" />
+      <File FileName="Assets/Scripts/Enemies/Spikehead.cs" Line="2" Column="1" />
+      <File FileName="Assets/Scripts/Room/Room.cs" Line="30" Column="2" />
+      <File FileName="Assets/Scripts/Room/Door.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,8 +16,10 @@
           <Node name="2D game_V1" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Health" expanded="True">
-                  <Node name="HealthCollectible.cs" selected="True" />
+                <Node name="Enemies" expanded="True" />
+                <Node name="Health" expanded="True" />
+                <Node name="Room" expanded="True">
+                  <Node name="Door.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -29,7 +30,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ef7553a6-5cc6-45c1-b4f5-8394222c3c52" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="481fa239-064f-4463-a3f9-3735310a0e39" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
