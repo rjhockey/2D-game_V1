@@ -59,7 +59,7 @@ public class Spikehead : EnemyDamage
         attacking = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) // ignore this vis studio erro
     {
         base.OnTriggerEnter2D(collision);
         Stop(); //Stop spikehead once he hits something
