@@ -3,11 +3,12 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
-    private bool hit;
     private float direction;
-    private BoxCollider2D boxCollider;
-    private Animator anim;
+    private bool hit;
     private float lifetime;
+
+    private Animator anim;
+    private BoxCollider2D boxCollider;
 
     private void Awake()
     {
@@ -23,8 +24,6 @@ public class Projectile : MonoBehaviour
 
         lifetime += Time.deltaTime;
         if (lifetime > 5) gameObject.SetActive(false);
-            
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -51,9 +50,8 @@ public class Projectile : MonoBehaviour
         transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
     }
 
-    public void Deactivate()
+    private void Deactivate()
     {
-        Debug.Log("DEactivate");
         gameObject.SetActive(false);
     }
 } // t
