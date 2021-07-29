@@ -28,6 +28,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // if(collision.gameObject.tag !="fireball" || collision.gameObject.tag != "Player")
         hit = true;
         boxCollider.enabled = false;
         anim.SetTrigger("explode");
